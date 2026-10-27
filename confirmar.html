@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let continua=confirm("Agregar datos")
+
+        if (continua){
+            let nombre=(prompt("ingresa tu nombre"));
+            let edad=Number(prompt("ingresa tu edad"));
+            let especialidad=(prompt("ingresa tu especialidad"));
+            let correo=(prompt("ingresa tu correo"));
+
+            document.write(`tu nombre es: `+ nombre + "<br>");
+            document.write(`tu edad es: `+ edad + "<br>");
+            document.write(`tu especialidad es: `+ especialidad + "<br>");
+            document.write(`tu correo es: `+ correo);
+
+        }else{
+            document.write(`me da flojera `);
+
+        }
+    </script>
+</body>
+</html>
