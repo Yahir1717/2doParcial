@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p id="prueba">  </p>
+<br>
+<p id="ejemplo"></p>
+<br>
+
+<br>
+<p class="fruta">hola</p>
+<p id="programador">Soy un programador</p>
+
+<script>
+    let elemento= document.getElementById("prueba");
+    elemento.innerHTML = "Aprendiendo metodos de javascript"
+   //GetElementById
+    var prueba= document.getElementById("ejemplo");
+    prueba.innerHTML="soy flojo porque no hago tarea";
+    //getElementsByClassName
+
+    //getElementByTagName
+
+
+    //querySelector
+    let frutas= document.querySelector(".fruta");
+    frutas.innerHTML="texto modificado";
+
+    let chamaco=document.querySelector("#programador");
+    chamaco.innerHTML="Soy bien flojote";
+
+
+
+</script>
+
+<a href="index.html">Ir al index</a>
+
+</body>
+</html>
